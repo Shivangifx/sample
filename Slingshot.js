@@ -8,6 +8,7 @@ class SlingShot{
         }
         this.pointB = pointB
         this.sling = Constraint.create(options);
+        this.sling1 = loadImage("sprites/sling1.png");
         World.add(world, this.sling);
     }
 
